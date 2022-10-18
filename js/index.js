@@ -61,7 +61,7 @@ addEventListener('keyup',(eventData)=>{
     }
 })
 addEventListener('keydown',(eventData)=>{
-    if(eventData.key==='ArrowUp'){
+    if(eventData.key===' '){
         index=0;
         dy=-8;
         accelaration=0.1;
