@@ -8,14 +8,14 @@ let index=0;
 
     const draw=()=>{
         if(dx>0 || dx<0){
-            player.style.backgroundImage=`url('../img/Walk (${index++}).png')`;
+            player.style.backgroundImage=`url('img/Walk (${index++}).png')`;
             if(index>9) index=0;
         }else{
-            player.style.backgroundImage=`url('../img/Idle (${index++}).png')`;
+            player.style.backgroundImage=`url('img/Idle (${index++}).png')`;
             if(index>9) index=0;
         }
         if(dy>0 || dy<0){
-            player.style.backgroundImage=`url('../img/Jump (${index++}).png')`;
+            player.style.backgroundImage=`url('img/Jump (${index++}).png')`;
             if(index>9) index=0;
         }
         requestAnimationFrame(draw);
